@@ -13,11 +13,11 @@
 #define END_OF_FILE -2
 #define EXIT -3
 
-/* Global environemnt */
+/* Global environemnts */
 extern char **environ;
 /* Global program name */
 char *name;
-/* Global history counter */
+/* Global history counters */
 int hist;
 
 /**
