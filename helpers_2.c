@@ -5,7 +5,7 @@ ssize_t get_new_len(char *line);
 void logical_ops(char *line, ssize_t *new_len);
 
 /**
- * handle_line - Partitions a line read from standard input as needed.
+ * handle_line - Partition a line read from standard input as needed.
  * @line: A pointer to a line read from standard input.
  * @read: The length of line.
  *
@@ -102,7 +102,7 @@ void handle_line(char **line, ssize_t read)
  *
  * Return: The new length of the line.
  *
- * Description: Cuts short lines containing '#' comments with '\0'.
+ * Description: Cuts short line containing '#' comments with '\0'.
  */
 
 ssize_t get_new_len(char *line)
