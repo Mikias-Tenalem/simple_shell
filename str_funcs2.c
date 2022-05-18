@@ -55,7 +55,7 @@ int _strspn(char *s, char *accept)
 }
 
 /**
- * _strcmp - Compares two strings.
+ * _strcmp - Compare two strings.
  * @s1: The first string to be compared.
  * @s2: The second string to be compared.
  *
