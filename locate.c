@@ -4,7 +4,7 @@ char *fill_path_dir(char *path);
 list_t *get_path_dir(char *path);
 
 /**
- * get_location - Locates a command in the PATH.
+ * get_location - Locate a command in the PATH.
  * @command: The command to locate.
  *
  * Return: If an error occurs or the command cannot be located - NULL.
@@ -104,7 +104,7 @@ char *fill_path_dir(char *path)
 }
 
 /**
- * get_path_dir - Tokenizes a colon-separated list of
+ * get_path_dir - Tokenize a colon-separated list of
  *                directories into a list_s linked list.
  * @path: The colon-separated list of directories.
  *
