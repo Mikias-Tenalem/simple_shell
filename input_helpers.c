@@ -42,8 +42,8 @@ char *get_args(char *line, int *exe_ret)
 }
 
 /**
- * call_args - Partitions operators from commands and calls them.
- * @args: An array of arguments.
+ * call_args - Partition operator from commands and calls them.
+ * @args: An array of argument.
  * @front: A double pointer to the beginning of args.
  * @exe_ret: The return value of the parent process' last executed command.
  *
@@ -100,8 +100,8 @@ int call_args(char **args, char **front, int *exe_ret)
 }
 
 /**
- * run_args - Calls the execution of a command.
- * @args: An array of arguments.
+ * run_args - Call the execution of a command.
+ * @args: An array of argument.
  * @front: A double pointer to the beginning of args.
  * @exe_ret: The return value of the parent process' last executed command.
  *
@@ -135,7 +135,7 @@ int run_args(char **args, char **front, int *exe_ret)
 }
 
 /**
- * handle_args - Gets, calls, and runs the execution of a command.
+ * handle_args - Get, call, and run the execution of a command.
  * @exe_ret: The return value of the parent process' last executed command.
  *
  * Return: If an end-of-file is read - END_OF_FILE (-2).
