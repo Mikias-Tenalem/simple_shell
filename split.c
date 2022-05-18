@@ -56,7 +56,7 @@ int count_tokens(char *str, char *delim)
 /**
  * _strtok - Tokenizes a string.
  * @line: The string.
- * @delim: The delimiter character to tokenize the string by.
+ * @delim: The delimiter characters to tokenize the string by.
  *
  * Return: A pointer to an array containing the tokenized words.
  */
